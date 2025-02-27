@@ -8,7 +8,7 @@
   , initial-scale=1.0"
     />
     <title>login</title>
-    <link real="stylesheet" href="./styles/output.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-gray-100 flex items-center justify-center h-screen">
     <div class="bg-white p-6 rounded shadow-md w-96">
@@ -18,17 +18,17 @@
       <!--Formulario de login-->
       <form action="">
         <div class="mb-4">
-          <label for="">E-mail</label>
-          <input type="email" placeholder="Digite seu e-mail" />
+          <label for="" class="block text-gray-700">E-mail</label>
+          <input type="email" class="w-full p-2 boder rounded" placeholder="Digite seu e-mail" />
         </div>
         <!-- Div e-mail-->
 
         <div class="mb-4">
-          <label for="">Senha</label>
-          <input type="password" placeholder="Digite sua senha" />
+          <label for="" class="block text-gray-700>Senha</label>
+          <input type="password" class="w-full p-2 boder rounded" placeholder="Digite sua senha" />
         </div>
         <!-- Div senha-->
-         <button>Entrar</button>
+        <button></button> <type="submit" class="w-full bg-blue-500 text-white p-2 rounded">Entrar</button>
       </form>
     </div>
   </body>
